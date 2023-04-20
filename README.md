@@ -1,2 +1,2 @@
 # vernam
-Vernam Cipher encryption application 🦎
+Text Encryption Application with Vernam Cipher 🦎
