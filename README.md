@@ -1,2 +1,2 @@
 # vernam
-Vernam Cipher coder 🦎
+Vernam Cipher encryption application 🦎
