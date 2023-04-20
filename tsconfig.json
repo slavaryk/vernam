@@ -1,0 +1,16 @@
+{
+    "extends": "@tsconfig/recommended/tsconfig.json",
+    "exclude": ["/node_modules"],
+    "compilerOptions": {
+        "baseUrl": "./",
+        // Paths the same as aliases in ./webpack.config.js
+        "paths": {},
+        "outDir": "./dist",
+        "sourceMap": true,
+        "module": "ES6",
+        "moduleResolution": "node16",
+        "isolatedModules": true,
+        "noImplicitThis": true,
+        "strict": true
+    }
+}
