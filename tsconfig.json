@@ -4,7 +4,10 @@
     "compilerOptions": {
         "baseUrl": "./",
         // Paths the same as aliases in ./webpack.config.js
-        "paths": {},
+        "paths": {
+            "@composables/*": ["app/composables/*"],
+            "@atoms/*": ["app/components/atoms/*"],
+        },
         "outDir": "./dist",
         "sourceMap": true,
         "module": "ES6",

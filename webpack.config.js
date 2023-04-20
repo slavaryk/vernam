@@ -16,7 +16,10 @@ module.exports = {
     },
     resolve: {
         extensions: [".ts", ".js", ".vue"],
-        alias: {},
+        alias: {
+            "@composables": path.resolve(__dirname, "app/composables"),
+            "@atoms":  path.resolve(__dirname, "app/components/atoms"),
+        },
     },
     module: {
         rules: [

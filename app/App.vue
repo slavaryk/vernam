@@ -1,5 +1,9 @@
 <template>
-    <main>App!</main>
+    <main>
+        <UserInput/>
+    </main>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import UserInput from "@atoms/UserInput/"
+</script>
