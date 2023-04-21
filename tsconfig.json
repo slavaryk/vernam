@@ -14,6 +14,5 @@
         "moduleResolution": "node16",
         "isolatedModules": true,
         "noImplicitThis": true,
-        "strict": true
     }
 }

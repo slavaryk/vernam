@@ -6,15 +6,13 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "format": "prettier --write ./app",
-        "style": "prettier --check ./app",
-        "build": "webpack",
-        "dev": "webpack serve"
+        "style": "prettier --check ./app"
     },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/mopqpqua/vernam.git"
     },
-    "author": "slava_ryk",
+    "author": "Slava Rykov",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/mopqpqua/vernam/issues"
@@ -22,14 +20,8 @@
     "homepage": "https://github.com/mopqpqua/vernam#readme",
     "devDependencies": {
         "@tsconfig/recommended": "^1.0.2",
-        "html-webpack-plugin": "^5.5.1",
         "prettier": "2.8.7",
-        "ts-loader": "^9.4.2",
-        "typescript": "^5.0.4",
-        "vue-loader": "^17.0.1",
-        "webpack": "^5.80.0",
-        "webpack-cli": "^5.0.1",
-        "webpack-dev-server": "^4.13.3"
+        "typescript": "^5.0.4"
     },
     "dependencies": {
         "vue": "^3.2.36"
