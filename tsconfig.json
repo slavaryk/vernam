@@ -6,13 +6,13 @@
         // Paths the same as aliases in ./webpack.config.js
         "paths": {
             "@composables/*": ["app/composables/*"],
-            "@atoms/*": ["app/components/atoms/*"],
+            "@atoms/*": ["app/components/atoms/*"]
         },
         "outDir": "./dist",
         "sourceMap": true,
-        "module": "ES6",
-        "moduleResolution": "node16",
+        "module": "ES2022",
+        "moduleResolution": "node",
         "isolatedModules": true,
-        "noImplicitThis": true,
+        "noImplicitThis": true
     }
 }
