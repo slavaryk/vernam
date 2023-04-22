@@ -1,7 +1,5 @@
 <template>
-    <input
-        v-model="input"
-    />
+    <input v-model="input" />
 </template>
 
 <script setup lang="ts">
