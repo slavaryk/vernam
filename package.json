@@ -4,7 +4,7 @@
     "description": "Vernam Cipher coder",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "jest",
         "format": "prettier --write ./app",
         "style": "prettier --check ./app",
         "dev": "vite"
@@ -20,8 +20,14 @@
     },
     "homepage": "https://github.com/mopqpqua/vernam#readme",
     "devDependencies": {
+        "@babel/core": "^7.21.4",
+        "@babel/preset-env": "^7.21.4",
+        "@babel/preset-typescript": "^7.21.4",
         "@tsconfig/recommended": "^1.0.2",
+        "@types/jest": "^29.5.1",
         "@vitejs/plugin-vue": "^4.1.0",
+        "babel-jest": "^29.5.0",
+        "jest": "^29.5.0",
         "prettier": "2.8.7",
         "typescript": "^5.0.4",
         "vite": "^4.3.1"
