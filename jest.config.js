@@ -84,6 +84,7 @@ module.exports = {
     moduleNameMapper: {
         // https://alexjover.com/blog/enhance-jest-configuration-with-module-aliases/
         "@composables/(.*)": "<rootDir>/app/composables/$1",
+        "@utility/(.*)": "<rootDir>/app/utility/$1",
     },
 
     // An array of regexp pattern strings, matched against all module paths before considered 'visible' to the module loader

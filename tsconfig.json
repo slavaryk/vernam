@@ -6,6 +6,7 @@
         // Paths the same as aliases in ./webpack.config.js
         "paths": {
             "@composables/*": ["app/composables/*"],
+            "@utility/*": ["app/utility/*"],
             "@atoms/*": ["app/components/atoms/*"]
         },
         "outDir": "./dist",

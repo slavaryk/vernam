@@ -7,6 +7,7 @@ export default defineConfig({
 	resolve: {
 		alias: {
 			"@composables": "/composables",
+			"@utility": "/utility",
 			"@atoms": "/components/atoms",
 		},
 	},
